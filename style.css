@@ -447,3 +447,32 @@ footer {
     .nav-links { display: none; }
     .contact-wrapper { grid-template-columns: 1fr; }
 }
+/* Mobile Header Fixes */
+@media (max-width: 768px) {
+    .nav-container {
+        height: auto;
+        padding: 10px 0;
+        gap: 0.5rem;
+    }
+
+    .logo {
+        font-size: 1rem;
+        max-width: 130px;
+        line-height: 1.2;
+    }
+
+    .nav-actions {
+        gap: 0.5rem;
+    }
+
+    .phone-btn {
+        padding: 0.4rem 0.75rem;
+        font-size: 0.8rem;
+    }
+
+    .theme-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 0.85rem;
+    }
+}
